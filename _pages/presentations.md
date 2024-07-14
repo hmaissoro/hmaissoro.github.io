@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /publications/
-title: Publications
+permalink: /presentations/
+title: Presentations
 description:
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/presentations.md -->
 
 {% if site.search_enabled %}
 <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
@@ -15,6 +15,6 @@ nav_order: 1
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --file presentations.bib %}
 
 </div>

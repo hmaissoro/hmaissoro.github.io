@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student in Statistics at <a href='https://crest.science/user/Hassan-MAISSORO/'>CREST</a> and <a href='https://www.datastorm.fr/congres-isnps-nous-y-etions/'>DataStorm.</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: bio-photo-hmaissoro.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
@@ -18,8 +18,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third year PhD student in the [CREST](https://crest.science/user/Hassan-MAISSORO/) lab and [Datastorm](https://www.datastorm.fr/la-these-dhassan-maissoro-sur-les-donnees-fonctionnelles/), supervised by [Valentin Patilea](https://ensai.fr/equipe/valentin-patilea/) and [Myriam Vimond](https://ensai.fr/equipe/myriam-vimond/) of CREST-ENSAI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My doctoral project is on dependent functional data with rough sample paths. My research focuses on capturing smoothness through local regularity parameters to improve the estimation of key parameters such as the mean function, autocovariance function and linear predictors for curve reconstruction, etc.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research Interests
+
+- **Computer Vision:** image recognition, image generation, video captioning
+- **Machine Learning:** meta-learning, incremental learning, transfer learning
+
+## News
+
+- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
+- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
+- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
+- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+
