@@ -1,11 +1,11 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
+permalink: /resume/
+title: Resume
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: cv/CV_Hassan_Maissoro_vLongue_20240727_english.pdf
+description: You can obtain my CV by clicking on the icon above. For the French version, click <a href='../assets/pdf/cv/CV_Hassan_Maissoro_vLongue_20240727_french.pdf'>here.</a>
 toc:
   sidebar: left
 ---
