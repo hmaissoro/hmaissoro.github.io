@@ -3,6 +3,26 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{maissoro2024adaptive_jtsa,
+  title={Adaptive estimation for Weakly Dependent Functional Times Series},
+  author={Maissoro, Hassan and Patilea, Valentin and Vimond, Myriam},
+  abstract={We propose adaptive mean and autocovariance function estimators for stationary functional time series under $\mathbb{L}^p-m$-approximability assumptions.
+  These estimators are designed to adapt to the regularity of the curves and to accommodate both sparse and dense data designs.
+  The sample paths are observed with error at possibly random design points.
+  Data-driven local bandwidths are selected by minimizing explicit quadratic risk bounds that exploit the local regularity of the process.
+  As a first step, we introduce a local regularity estimator and derive a nonasymptotic concentration bound for it.
+  We also derive the asymptotic normality of the mean estimator, which allows honest inference for irregular mean functions.
+  Simulations and a real data application illustrate the performance of the new estimators.},
+  journal={Journal of Time Series Analysis},
+  pdf={JTSA - 2025 - Maissoro - Adaptive Estimation for Weakly Dependent Functional Times Series.pdf},
+  year={2025},
+  preview={jtsa_publication_2025.png},
+  html={https://doi.org/10.1111/jtsa.70006},
+  poster={11th_worldcongress_ProbaStat_2024/poster_MPV.pdf},
+  slides={talks/icsds_2024/Hassan_Maissoro_ICSDS_2024.pdf},
+  selected={true}
+}
+
 @article{maissoro2024adaptive,
   title={Adaptive estimation for Weakly Dependent Functional Times Series},
   author={Maissoro, Hassan and Patilea, Valentin and Vimond, Myriam},
@@ -14,28 +34,37 @@
   preview={real_data_all_curves.png},
   poster={posters/jme-2022/jme2022_poster_learning_smoothness_MVP.pdf},
   slides={talks/fda-lille-2024/slides_Workshop_Lille_HassanMaissoro_mars2024.pdf},
-  selected={true}
+  selected={false}
 }
 
-@article{maissoro2024adaptive_SM,
-  title={Adaptive estimation for Weakly Dependent Functional Times Series (Supplementary Material)},
+@article{maissoro2024adaptive_jsta_SI,
+  title={Supplemental of "Adaptive Estimation for Weakly Dependent Functional Times Series"},
   author={Maissoro, Hassan and Patilea, Valentin and Vimond, Myriam},
-  abstract={In this supplement we provide the proofs of the lemmas and additional technical statements given in the Appendix of the main document. We also provide further empirical results and details on the construction of our simulation setups and the real data case. In section S.1 the proofs of the technical lemmas stated in the Appendix section A are given. Additional results for the local regularity estimation in the case of differentiable sample paths are stated and proved in section S.2. The proof of the lemmas used in the Appendix section C are given in section S.3 below. Details of the simulation setups, additional simulation results and insight on the choice of the tuning parameters involved in the local regularity estimation are given in section S.4.},
-  pdf={2024-adaptive-estimation-for-weakly-dependent-functional-times-series_SM.pdf},
-  year={2024},
-  preview={adaptive2024_SM.png},
+  abstract={Proofs and technical details, theoretical results, simulation and real data analysis for the article "Adaptive Estimation forWeakly Dependent Functional Times Series" (to which we refer to as 'main manuscript' ) are presented in this supplemental material.
+  More precisely, Section A contains the theoretical developments for local regularity estimation, addressing both non-differentiable and continuously differentiable sample paths.
+  The corresponding proofs are provided in Section B and Section C (for the non-differentiable case), and in Section D (for the differentiable case).
+  Sections E and F are devoted to the technical lemmas and their proofs related to adaptive estimation.
+  Finally, details of the simulation setups presented in the main manuscript, additional simulation results and insight on the choice of the tuning parameters involved in the local regularity estimation are given in Section G.},
+  pdf={JTSA - 2025 - Maissoro-sup-0001-supinfo.pdf},
+  year={2025},
+  preview={real_data_all_curves.png},
   selected={false}
 }
 
 @article{maissoro2024adaptivePrevFTS,
   title={Adaptive prediction for Functional Times Series},
   author={Maissoro, Hassan and Patilea, Valentin and Vimond, Myriam},
-  abstract={An adaptive procedure for curve prediction for a stationary functional time series is proposed.
-    The sample paths of the functional times series are assumed to be irregular and are observed with error at discrete times in the domain. Our linear predictor is based on the best linear unbiased predictor (BLUP) and on the adaptive nonparametric mean and autocovariance functions estimators. That is, the bandwidth parameters of these estimators are chosen adaptively with respect to the local regularity of the sample paths. The benefit of such a procedure will be a reduction in risk prediction compared to existing procedures.},
-  journal={Work in progress},
-  year={2024},
-  pdf={2024-adaptive-estimation-for-functional-time-series.pdf},
-  preview={blup.png},
+  abstract={We propose an adaptive curve prediction method for stationary functional time series (FTS) with irregular sample paths that are observed with error at discrete domain points.
+  Our approach is based on the best linear unbiased predictor and requires knowledge of the mean, covariance and autocovariance functions of the FTS, as well as the conditional variance of the measurement errors.
+  We introduce new adaptive non-parametric estimators for the covariance and autocovariance functions, using adaptive local bandwidth rules.
+  These estimators adapt to the local regularity of the FTS, resulting in improved prediction accuracy.
+  We derive pointwise and uniform convergence rates for the covariance and autocovariance estimators.
+  We also establish a uniform convergence rate for the adaptive mean estimator.
+  A simulation study and a real data application illustrate the good performance of the new predictor.},
+  journal={CREST Working Paper (journal submission forthcoming)},
+  year={2025},
+  pdf={2024-adaptive-prediction-for-functional-time-series.pdf},
+  preview={blup_conso_prev.png},
   slides={talks/isnps_2024/ISNPS_2024_adaptive-prediction-for-functional-time-series_Hassan-Maissoro.pdf},
   selected={true}
 }
