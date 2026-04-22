@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Hassan Maissoro",
-    "label": "PhD Student in Statistics",
+    "label": "PhD in Statistics | Ingénieur en Data Science & Génie Statistique",
     "image": "",
     "email": "maissorohassan@gmail.com",
     "phone": "",
     "url": "https://hassan.maissoro.com",
-    "summary": "As I approach the completion of my PhD in Applied Mathematics, I will be available for new opportunities starting February 2025. I am actively seeking post-doctoral positions or roles in industry or finance where I can leverage my expertise to contribute to innovative projects.",
+    "summary": "Actively seeking industry roles from May 2026 in data science, quantitative research, or applied statistics. PhD in Statistics and Diplôme d'Ingénieur from ENSAI, with CIFRE research experience in functional time series and open-source contributions to MAPIE (uncertainty quantification and risk control).",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,12 +24,25 @@
   },
   "work": [
     {
+      "name": "Capgemini Invent Lab",
+      "location": "Issy-les-Moulineaux, France",
+      "position": "Data Scientist",
+      "url": "https://github.com/scikit-learn-contrib/MAPIE",
+      "startDate": "2025-01-01",
+      "endDate": "Present",
+      "summary": "Contributor to MAPIE, an open-source scikit-learn-compatible Python library for prediction intervals, uncertainty quantification, and risk control in machine learning, developed in collaboration with Capgemini Invent, Quantmetry, Michelin, and ENS Paris-Saclay.",
+      "highlights": [
+        "Conformal prediction methods for regression and time series.",
+        "Risk control algorithms with distribution-free guarantees."
+      ]
+    },
+    {
       "name": "DataStorm",
-      "location": "Paris, France",
-      "position": "PhD Student in Statistics",
+      "location": "Malakoff, France",
+      "position": "PhD Researcher (CIFRE)",
       "url": "https://www.datastorm.fr/la-these-dhassan-maissoro-sur-les-donnees-fonctionnelles/",
       "startDate": "2021-10-01",
-      "endDate": "Present",
+      "endDate": "2025-03-31",
       "summary": "Research on estimation and prediction for irregular trajectories through functional data analysis. Projects for DataStorm clients.",
       "highlights": [
         "Application: Load curves of electricity production and consumption.",
@@ -109,25 +122,26 @@
   ],
   "education": [
     {
-      "institution": "École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI - Rennes)",
-      "location": "Rennes, France",
+      "institution": "École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI - Bruz)",
+      "location": "Bruz, France",
       "url": "https://ensai.fr/",
       "area": "Applied Mathematics",
-      "studyType": "PhD in Applied Mathematics",
-      "startDate": "2021-01-01",
-      "endDate": "Present",
+      "studyType": "PhD in Statistics",
+      "startDate": "2021-10-01",
+      "endDate": "2025-12-31",
       "score": "",
       "courses": [
-        "Topic: Robust approach to functional data analysis.",
-        "Supervisors: Valentin Patilea & Myriam Vimond"
+        "Thesis: Functional Time Series Analysis with Applications to Electricity Production Forecasting.",
+        "Supervisors: Valentin Patilea & Myriam Vimond",
+        "CIFRE convention with DataStorm (Paris)"
       ]
     },
     {
-      "institution": "École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI - Rennes)",
-      "location": "Rennes, France",
+      "institution": "École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI - Bruz)",
+      "location": "Bruz, France",
       "url": "https://ensai.fr/",
       "area": "Data Science & Statistical Engineering",
-      "studyType": "Data Scientist Engineer (Master’s Degree)",
+      "studyType": "Diplôme d'Ingénieur — Data Science & Génie Statistique",
       "startDate": "2019-09-01",
       "endDate": "2021-09-30",
       "score": "",
@@ -164,18 +178,18 @@
   ],
   "publications": [
     {
-      "name": "Adaptive estimation for Weakly Dependent Functional Time Series",
-      "publisher": "arXiv preprint arXiv:2403.13706",
-      "releaseDate": "2024-01-01",
-      "url": "https://arxiv.org/abs/2403.13706",
-      "summary": "Submitted to a journal"
+      "name": "Adaptive Estimation for Weakly Dependent Functional Time Series",
+      "publisher": "Journal of Time Series Analysis",
+      "releaseDate": "2025-06-04",
+      "url": "https://doi.org/10.1111/jtsa.70006",
+      "summary": "With V. Patilea and M. Vimond. Published June 2025."
     },
     {
-      "name": "Adaptive prediction for Functional Time Series",
-      "publisher": "In the process of finalization",
-      "releaseDate": "2024-05-24",
-      "url": "https://jds2024.sciencesconf.org/529727/document",
-      "summary": "Soon to be submitted to a journal"
+      "name": "Adaptive Prediction for Functional Time Series",
+      "publisher": "CREST Working Paper",
+      "releaseDate": "2025-11-01",
+      "url": "/assets/pdf/talks/isnps_2024/ISNPS_2024_adaptive-prediction-for-functional-time-series_Hassan-Maissoro.pdf",
+      "summary": "With V. Patilea and M. Vimond. Journal submission forthcoming, targeting Fall 2026."
     }
   ],
   "skills": [
@@ -257,12 +271,12 @@
   "teaching": [
     {
       "name": "Tutorial on unsupervised classification with exercises and applications in R",
-      "institution": "Ensai-Rennes",
+      "institution": "Ensai-Bruz",
       "date": "2024-04-01"
     },
     {
       "name": "Tutorial on multivariate time series with exercises and applications in R",
-      "institution": "Ensai-Rennes",
+      "institution": "Ensai-Bruz",
       "date": "2024-01-01"
     },
     {
