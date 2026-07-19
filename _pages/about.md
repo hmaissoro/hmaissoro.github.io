@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I hold a Diplome d'Ingenieur en Data Science & Genie Statistique and a PhD in Statistics, both from [CREST-ENSAI](https://ensai.fr/recherche/themes-de-recherche/). During my PhD, I worked at the intersection of nonparametric statistics, functional data analysis, and time series, with applications in energy through a CIFRE convention with DataStorm, a data science consultancy. I also contributed at Capgemini Invent Lab to the open-source Python package [MAPIE](https://github.com/scikit-learn-contrib/MAPIE), a scikit-learn-compatible library for prediction intervals, uncertainty quantification, and risk control in machine learning.
-I am now **actively looking for industry positions** starting May 2026 in data science, quantitative research, or applied statistics.
+I currently focus on research and applied work in data science, quantitative research, and applied statistics.
 
 ---
 
